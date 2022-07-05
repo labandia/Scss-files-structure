@@ -1,0 +1,16 @@
+@mixin flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@mixin grid {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+@mixin text-style {
+   font-size: 1rem;
+   font-weight: normal;
+   color: #fff;
+}
